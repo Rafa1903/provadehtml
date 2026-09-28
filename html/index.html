@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Minecraft</h1>
+        <nav>
+            <a href="index.html">Menu</a><br>
+            <a href="hostis.html">Mobs hostis</a><br>
+            <a href="pacifs.html">Mobs pacíficos</a><br>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+
+            <h2>O que você conhece de Minecraft?</h2>
+
+            <label>Já teve interesse sobre Minecraft?</label>
+            <input list="escolha" placeholder="Marque o que mais se encaixa sobre você">
+            <datalist id="escolha">
+                <option value="Nunca tive interesse">
+                <option value="Tenho interesse">
+                <option value="Já tive interesse, mas nunca tive oportunidade">
+            </datalist>
+            </form><br>
+
+            <form>
+                <label for="horas">Quantas horas que você já jogou de Minecraft?:</label>
+                <input type="range" id="horas" name="horas" min="0" max="999" value="0">
+            </form><br>
+
+            <form>
+                <label for="hoje">Marque que dia é hoje:</label>
+                <input type="date" id="hoje" name="hoje" required>
+            </form>
+        </section>
+
+        <section>
+            <article>
+                <h3>O que sabe sobre Minecraft?</h3>
+
+                <figure>
+                    <img src="img/minecraft.png" alt="minecraft" width="500" height="300">
+                    <figcaption>Minecraft - sandbox</figcaption><br>
+                </figure>
+
+                <details>
+                    <summary>Um pouco sobre o jogo</summary>
+                    <p>
+                        O minecraft é um jogo sandbox de sobrevivência e de construção
+                        criado por Markus Person(Notch) em meados dos anos 2000 e foi
+                        publicado a versão <mark>completa</mark> em 2011. O minecraft foi comprada pela
+                        Mojang Studios e depois o estúdio foi comprada pela a microsoft.
+                    </p>
+                    <p>
+                        Apesar de existir uma versão <del>completa</del>, o jogo ainda vem se
+                        <ins>Atualizando</ins>. O minecraft é o segundo jogo mais vendido da história, perdendo
+                        apenas para o tretis e ele está dispon[ivel para ser jogado na grande maioria das
+                        plantaformas: PC, console e
+                        celular.
+                    </p>
+                </details>
+
+                <!-- Não conseguir utilizar o "meter" e o "Progress"-->
+                <form>
+                    <label for=""></label>
+                    <progress></progress>
+                </form>
+            </article>
+        </section>
+
+        <h3>Gameplay</h3>
+
+        <figure>
+        <video src="video/lyubimaya_mrs_pindown.io_1790600617.mp4" controls></video>
+        <figcaption>Gameplay básica de parkuor</figcaption>
+        </figure>
+        </section>
+
+        <aside>
+            <p>Esse trabalho é sobre uma prova no dia <time datetime="28/09/2026">28 de setembro de 2026</time></p>
+            <blockquote>
+                <p>O significado de <abbr title="HyperText Markup Language">html é HyperText Markup Language.</abbr></p>
+                <cite>Israel de Cunha</cite>
+            </blockquote>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Site sobre Minecraft de João Rafael</p>
+    </footer>
+
+</body>
+
+</html>
